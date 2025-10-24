@@ -5,6 +5,10 @@
       "queryScope": "COLLECTION",
       "fields": [
         {
+          "fieldPath": "category",
+          "order": "ASCENDING"
+        },
+        {
           "fieldPath": "avgRating",
           "order": "DESCENDING"
         }
