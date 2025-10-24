@@ -1,4 +1,4 @@
-import hotel from "@/src/components/hotel.jsx";
+import Hotel from "@/src/components/Hotel.jsx";
 import { Suspense } from "react";
 import { gethotelById } from "@/src/lib/firebase/firestore.js";
 import {
@@ -28,7 +28,7 @@ export default async function Home(props) {
 
   return (
     <main className="main__hotel">
-      <hotel
+      <Hotel
         id={params.id}
         initialhotel={hotel}
         initialUserId={currentUser?.uid || ""}
@@ -36,7 +36,7 @@ export default async function Home(props) {
         <Suspense fallback={<GeminiSummarySkeleton />}>
           <GeminiSummary hotelId={params.id} />
         </Suspense>
-      </hotel>
+      </Hotel>
       <Suspense
         fallback={<ReviewsListSkeleton numReviews={hotel.numRatings} />}
       >

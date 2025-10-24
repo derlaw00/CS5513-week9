@@ -18,7 +18,7 @@ import { updatehotelImage } from "@/src/lib/firebase/storage.js";
 //storing ReviewDialog DOM component using dynamic from nextjs
 const ReviewDialog = dynamic(() => import("@/src/components/ReviewDialog.jsx"));
 //function is creating the Restraunt DOM component
-export default function hotel({
+export default function Hotel({
   id,
   initialhotel,
   initialUserId,
