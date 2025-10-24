@@ -98,7 +98,6 @@ export default function Filters({ filters, setFilters }) {
                 onClick={() => {
                   setFilters({
                     city: "",
-                    category: "",
                     price: "",
                     sort: "",
                   });

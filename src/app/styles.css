@@ -129,7 +129,7 @@ header {
     margin-inline-end: 10px;
   }
 
-  color: white;
+  color: #171717;
   text-decoration: none;
   font-size: 1.25rem;
   font-weight: 500;
@@ -262,6 +262,7 @@ a {
 
 .hotel__details {
   padding: 20px;
+  color: #B25353;
 }
 
 .hotel__rating {
@@ -332,6 +333,7 @@ a {
   & .review__item {
     padding: 40px;
     border-bottom: 1px solid rgba(33, 99, 252, 0.89);
+    color: white;
   }
 
   & time {
