@@ -63,8 +63,8 @@ export default function Header({ initialUser }) {
   return (
     <header>
       <Link href="/" className="logo">
-        <img src="/friendly-eats.svg" alt="FriendlyEats" />
-        Friendly Eats
+        <img src="/friendly-eats.svg" alt="BlueHotels" />
+        Blue Hotels
       </Link>
       {user ? (
         <>

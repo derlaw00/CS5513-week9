@@ -72,7 +72,7 @@ export default function Hotel({
   return (
     <>
       <HotelDetails
-        hotel={HotelDetails}
+        hotel={hotelDetails}
         userId={userId}
         handlehotelImage={handlehotelImage}
         setIsOpen={setIsOpen}
