@@ -12,7 +12,7 @@ import Filters from "@/src/components/Filters.jsx";
 
 const HotelItem = ({ hotel }) => (
   <li key={hotel.id}>
-    <Link href={`/hotel/${hotel.id}`}>
+    <Link href={`/hotels/${hotel.id}`}>
       <ActiveHotel hotel={hotel} />
     </Link>
   </li>
