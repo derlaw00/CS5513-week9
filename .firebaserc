@@ -1,6 +1,7 @@
 {
   "projects": {
-    "friendlyeats-codelab": "cs5513-week9"
+    "friendlyeats-codelab": "cs5513-week9",
+    "midterm": "cs5513-week9"
   },
   "targets": {},
   "etags": {}
