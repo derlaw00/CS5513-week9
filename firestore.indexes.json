@@ -19,6 +19,10 @@
       "queryScope": "COLLECTION",
       "fields": [
         {
+          "fieldPath": "category",
+          "order": "ASCENDING"
+        },
+        {
           "fieldPath": "numRatings",
           "order": "DESCENDING"
         }
@@ -28,6 +32,10 @@
       "collectionGroup": "hotels",
       "queryScope": "COLLECTION",
       "fields": [
+        {
+          "fieldPath": "category",
+          "order": "ASCENDING"
+        },
         {
           "fieldPath": "price",
           "order": "ASCENDING"

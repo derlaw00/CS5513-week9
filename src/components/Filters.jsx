@@ -38,7 +38,7 @@ export default function Filters({ filters, setFilters }) {
         <summary>
           <img src="/filter.svg" alt="filter" />
           <div>
-            <p>hotels</p>
+            <p>Hotels</p>
             <p>Sorted by {filters.sort || "Rating"}</p>
           </div>
         </summary>
