@@ -25,7 +25,7 @@ export default function Hotel({
   children,
 }) {
   //using useState from react to update hotel details in real time
-  const [HotelDetails, setHotelDetails] = useState(initialhotel);
+  const [hotelDetails, setHotelDetails] = useState(initialhotel);
   //using useState from react to update isOpen in real time
   const [isOpen, setIsOpen] = useState(false);
 
@@ -52,7 +52,7 @@ export default function Hotel({
 //getting new image url path by calling updatehotelImage and sending the hotel ID and new image
     const imageURL = await updatehotelImage(id, image);
     //calling setHotelDetails that was created earlier with useState and sending restrautDetails and new photo
-    setHotelDetails({ ...HotelDetails, photo: imageURL });
+    setHotelDetails({ ...hotelDetails, photo: imageURL });
   }
 //function will handle closing of forms 
   const handleClose = () => {
